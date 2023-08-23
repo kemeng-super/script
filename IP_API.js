@@ -11,7 +11,7 @@ function getRandomInt(max) {
 
 function City_ValidCheck(para) {
   if(para) {
-  return para+emojis[getRandomInt(emojis.length)];
+  return para
   } else 
   {
   return city0
