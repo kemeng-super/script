@@ -12,7 +12,8 @@ function getRandomInt(max) {
 function City_ValidCheck(para) {
   if(para) {
   return para emojis[getRandomInt(emojis.length)];
-  } else {
+  } else 
+  {
   return city0
   }
 }
@@ -20,7 +21,8 @@ function City_ValidCheck(para) {
 function ISP_ValidCheck(para) {
   if(para) {
   return para
-  } else { 
+  } else 
+  { 
   return isp0
 //emojis[getRandomInt(emojis.length)]
   }
