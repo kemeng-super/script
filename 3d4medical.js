@@ -17,7 +17,7 @@
 var body = JSON.parse($response.body);
 body.bypasses = [
     {
-        "expire_ts": "253402185600",
+        "expire_ts": "1674187682",
         "expire": "9999-12-31 23:59:59",
         "active": true,
         "comment": "ca19_trial",
@@ -43,7 +43,7 @@ body.permissions = {
     "recording_publisher": true
 }
 body.bypass = {
-    "expire_ts" : "253402185600",
+    "expire_ts" : "1674187682",
     "expire" : "9999-12-31 23:59:59",
     "active" : true,
     "comment" : "ca19_trial",
@@ -53,13 +53,13 @@ body.products={
     "ca19.trial" : {
         "active" : true,
         "expire_dt" : "9999-12-31 23:59:59",
-        "expire_ts" : "253402185600"
+        "expire_ts" : "1674187682"
     },
     "bypass" : {
         "active" : true,
         "expire_dt" : "9999-12-31 23:59:59",
         "comment" : "ca19_trial",
-        "expire_ts" : "253402185600"
+        "expire_ts" : "1674187682"
     }
 }
 
