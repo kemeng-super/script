@@ -21,7 +21,7 @@ bind-address: "*"    # 地址绑定
 mode: rule           # 规则模式
 log-level: info      # 日志级别
 ipv6: false          # IPV6开关
-external-controller: 127.0.0.1:9090
+external-controller: 192.168.1.1:9090
 
 dns:
   enable: true       # 不使用系统 DNS
